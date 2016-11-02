@@ -1,0 +1,415 @@
+@font-face {
+  src: url('fonts/GothamProBold.ttf');
+  font-family: 'Gotham Pro Bold';
+}
+@font-face {
+  src: url('fonts/GothamProMedium.ttf');
+  font-family: 'Gotham Pro Medium';
+}
+@font-face {
+  src: url('fonts/GothamProRegular.ttf');
+  font-family: 'Gotham Pro Regular';
+}
+body{
+  max-width: 1270px;
+  margin: auto;
+    font-family: 'Gotham Pro Bold';
+}
+header{
+  background: url('Background.png');
+  background-position-x: -20px;
+}
+.language{
+  background:rgba(255,255,255,0.9);
+  text-align: right;
+  height: 25px;
+  padding-right: 10%;
+  line-height: 35px;
+}
+.wrapper{
+  width: 90%;
+  margin: auto;
+}
+.consult{
+  text-align: right;
+  font-family: 'Gotham Pro Medium';
+  background:rgba(227,220,210,0.9);
+  line-height: 45px;
+  padding-right: 10%;
+}
+.consult span{
+  color:#b38643;
+  font-family: 'Gotham Pro Bold';
+}
+nav{
+  background-color: #4f353e;
+  color:#fff;
+  height: 45px;
+}
+nav a{
+  text-decoration: none;
+  margin-left: 7%;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+nav a:visited{
+  color:#fff;
+}
+.services{
+  margin-top: 30%;
+}
+.services > div{
+  width:250px;
+  height: 150px;
+  border: 4px solid #c79955;
+  display: inline-block;
+  margin-left: 4%;
+  margin-top: 2%;
+  color:white;
+  background-position-x:-10px;
+  background-position-y:-10px;
+  background-size: 110%;
+  position: relative;
+}
+.services > div:hover{
+}
+.services a{
+  position: absolute;
+  top:60px;
+  left:50px;
+}
+.s1{
+  background: url('Auto_Accidents1.jpg');
+  }
+.s2{
+  background: url('personalinjury3.jpg');
+  }
+.s3{
+  background: url('Law-student-Poonam-Gosrani-2.jpg');
+  }
+.s4{
+  background: url('5de90a61-d5d2-3a4d-a553-7462412879ce.jpg');
+  background-position-y:-40px!important;
+  }
+.s5{
+  background: url('nursing-home-abuse_287x194.jpg');
+  }
+.s6{
+  background: url('accident-construction1.jpg') no-repeat;
+  background-size: 115%!important;
+  background-position-y:0px!important;
+  }
+.s7{
+  background: url('Slip-and-Fall-Lawyers-300x225.jpg');
+  background-size: 100%;
+}
+.s8{
+  background: url('iconmonstr-award-19-icon-2561.png');
+  position: relative;
+}
+.s8 a{
+  top:100px;
+  left:60px;
+}
+.recent{
+  color:#4f353e;
+  margin-top: -12%;
+padding-top: 11%;
+background-color: #f8f2e8;
+}
+.settlements{
+  margin:7% 0 7% 30%;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.settlements img{
+  margin-bottom: -2%;
+}
+.settlements + img{
+  margin-right: 3%;
+  margin-left: 5%;
+}
+.recent img:last-of-type{
+  margin-left: 3%;
+}
+.settlements ~ div{
+  margin-left: 1%;
+  width: 17%;
+  line-height: 20px;
+  padding: 1% 1%;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 7%;
+}
+.settlements ~ div span{
+  font-size: 30px;
+}
+
+.welcome{
+  float:left;
+  width:50%;
+  margin-left: 10%;
+  display: inline-block;
+  color:#4f353e;
+  height: 760px;
+}
+.welcome h1{
+  font-size: 24px;
+}
+ul{
+  list-style-image: url('check.png');
+  color:#b38643;
+}
+.welcome p{
+  font-family: 'Gotham Pro Regular';
+}
+.sidebar{
+  color:#4f353e;
+  width:30%;
+  display: inline-block;
+  height: 760px;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+::-webkit-input-placeholder{
+  font-family: 'Gotham Pro Regular';
+  color:#000;
+}
+aside input,textarea{
+  width: 90%;
+  margin-left: 5%;
+  border: 0;
+  border-bottom: 2px solid #b38643;
+  outline:none;
+  height: 30px;
+  margin-top: 5%;
+}
+aside{
+  background-color: #fff;
+  border: 1px solid #ccc1bc;
+  margin-bottom: 10%;
+}
+
+aside h2{
+  text-align: center;
+  text-transform: uppercase;
+}
+button{
+  text-transform: uppercase;
+height: 40px;
+margin-top: 10%;
+margin-bottom: 10%;
+width: 90%;
+margin-left: 5%;
+border-radius: 4px;
+background-color: #fb9902;
+box-shadow: 0px 5px #d68202;
+border: none;
+color:#fff;
+outline: none;
+text-decoration: none;
+}
+button:hover{
+  text-decoration: none;
+  color:#fff;
+  box-shadow:0px 5px 0px #d68202;
+}
+button:active{
+  text-decoration: none;
+  box-shadow: 0 2px #d68202;
+  transform: translateY(3px);
+}
+.last_topics p{
+  width: 90%;
+  margin-left: 5%;
+  font-family: 'Gotham Pro Regular';
+  border-bottom: 2px solid #b38643;
+}
+.circle{
+  margin-left: 70%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.c1{
+    background-color: #4f353e;
+}
+.c1,.c2,.c3{
+  width:20px;
+  border-radius: 50%;
+  height: 20px;
+  margin-left: 5%;
+  display: inline-block;
+}
+.c2,.c3{
+  background-color: #b38643;
+}
+
+.wehave{
+  width: 50%;
+  background-color: #4f353e;
+  float: left;
+  height: 380px;
+}
+.wehave h1{
+  font-size: 30px;
+  color:#fff;
+  text-align: center;
+}
+.wehave ul{
+  width: 30%;
+  color:#fff;
+  margin-left: 10%;
+  list-style-image: url('check2.png');
+  font-family: 'Gotham Pro Regular';
+  display: inline-block;
+}
+.wehave ul li{
+  margin: 10%;
+}
+.mapimg{
+  width: 50%;
+  height: 380px;
+  display: inline-block;
+  background: url('map.png');
+  background-position-x: -400px;
+  background-position-y: -200px;
+}
+.info div{
+  width: 50%;
+  display: inline-block;
+  float: left;
+  font-family: 'Gotham Pro Regular';
+  color:#4f353e;
+  height: 300px;
+  background-color:#f8f2e8;
+}
+.info h1 span{
+  color:#b38643;
+  font-family: 'Gotham Pro Bold';
+}
+.info h1{
+  padding: 15% 15%;
+}
+.info p:first-child{
+  margin-top:15%;
+}
+.info p{
+  padding-right: 20%;
+}
+.aspects{
+  height: 510px;
+  color:#4f353e;
+  font-family: 'Gotham Pro Regular';
+}
+.aspects h1{
+  width: 45%;
+  margin-top: 35%;
+  margin-left: 30%;
+  font-size: 30px;
+  font-weight: 300px;
+}
+.aspects_one,.aspects_two{
+  width: 49.7%;
+  vertical-align: top;
+  display: inline-block;
+}
+.aspects h1 span{
+  color:#4f353e;
+  font-family: 'Gotham Pro Bold';
+}
+.aspects ul{
+  list-style-image: url('arrowul.png');
+}
+.aspects ul li{
+  margin: 5%;
+  color:#4f353e;
+}
+.info2{
+  height: 460px;
+  background-color:#4f353e;
+  color:#fff;
+  font-family: 'Gotham Pro Regular';
+}
+.info2 div{
+  width:40%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 4%;
+}
+.info2 ul{
+  color:#fff;
+  list-style-image: url('rectangle.png');
+}
+.info2 li{
+  margin: 5%;
+}
+.info2 p:nth-child(3){
+  font-size: 30px;
+}
+.info3{
+  background-color: #f8f2e8;
+  color:#4f353e;
+}
+.info3 div,.info4 div{
+  width: 40%;
+  vertical-align: top;
+  display: inline-block;
+  font-family: 'Gotham Pro Regular';
+  padding: 4%;
+}
+.info4{
+  color:#4f353e;
+}
+.info4 h1{
+  margin-left: 36%;
+  width: 32%;
+  font-size: 30px;
+}
+.info4 div p{
+  width:88%;
+  display: inline-block;
+}
+.info4 img{
+  display: inline-block;
+}
+.callnow div{
+  font-family: 'Gotham Pro Regular';
+  width: 49.7%;
+  display: inline-block;
+}
+.callnow p{
+  width:90%;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.callnow{
+  background: url('logo.png');
+  height: 320px;
+  background-position-y:-25px;
+}
+.certifications h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  color:#4f353e;
+  text-align: center;
+}
+.certifications img{
+  height: 150px;
+  margin-left: 5%;
+}
+.certifications img:last-child{
+  height: 100px;
+  margin-bottom: 2%;
+}
+footer{
+  background-color:#4f353e;
+  color:#fff;
+  margin-top: 10%;
+}
+footer h1{
+  margin: 0;
+  text-align: center;
+  line-height: 60px;
+  font-size: 14px;
+}
